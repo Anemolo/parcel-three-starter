@@ -1,4 +1,4 @@
-/dist
+dist/
 /node_modules
-/cache
-/parcel-cache
+.cache/
+.parcel-cache/
