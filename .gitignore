@@ -1,4 +1,7 @@
-dist/
+/dist
+/.parcel-cache
 /node_modules
-.cache/
-.parcel-cache/
+/.cache
+/static/**
+
+why wont you ignore my files
