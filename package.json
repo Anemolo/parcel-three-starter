@@ -1,0 +1,23 @@
+{
+	"name": "parcel-three-starter",
+	"version": "1.0.0",
+	"description": "A simple starter for my three projects",
+	"main": "index.js",
+	"staticFiles": {
+		"staticPath": "static"
+	},
+	"scripts": {
+		"start": "parcel index.html"
+	},
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"normalize.css": "^8.0.1",
+		"three": "^0.125.2"
+	},
+	"devDependencies": {
+		"@parcel/config-default": "2.0.0-beta.1",
+		"parcel": "^2.0.0-beta.1",
+		"parcel-reporter-static-files-copy": "^1.2.1"
+	}
+}

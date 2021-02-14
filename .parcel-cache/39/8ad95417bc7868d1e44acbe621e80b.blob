@@ -1,0 +1,55 @@
+"use strict";
+
+var THREE = _interopRequireWildcard(require("three"));
+
+function _getRequireWildcardCache() { if (typeof WeakMap !== "function") return null; var cache = new WeakMap(); _getRequireWildcardCache = function () { return cache; }; return cache; }
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+
+let canvas = document.getElementById("app-canvas");
+let wrapper = document.getElementById("app-wrapper");
+console.log("sdasdasdsstart");
+
+class BasicCore {
+  constructor(container, canvas) {
+    this.container = container;
+    this.vp = {
+      width: container.offsetWidth,
+      height: container.offsetHeight,
+      dpr: Math.min(window.devicePixelRatio)
+    };
+    this.renderer = new THREE.WebGLRenderer({
+      antialias: false
+    });
+    this.renderer.setSize(this.vp.width, this.vp.height, false);
+    this.renderer.setPixelRatio(this.vp.dpr);
+    container.append(this.renderer.domElement);
+    this.camera = new THREE.PerspectiveCamera(45, this.vp.width / this.vp.height, 0.1, 10000);
+    this.camera.position.z = 50;
+    this.scene = new THREE.Scene();
+    this.clock = new THREE.Clock();
+    this.assets = {};
+    this.disposed = false;
+    this.tick = this.tick.bind(this);
+    this.init = this.init.bind(this);
+    this.setSize = this.setSize.bind(this);
+  }
+
+  dispose() {//
+  } // To be replaced
+
+
+  update() {}
+
+  render() {
+    this.renderer.render(this.scene, this.camera);
+  }
+
+  tick() {
+    if (this.disposed) return;
+    this.update();
+    this.render();
+    requestAnimationFrame(this.tick);
+  }
+
+}

@@ -1,0 +1,11 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="ed9417ee043638740add51e6042548ec">
+	</head>
+	<body>
+		<div id="app-wrapper">
+			<canvas id="app-canvas"></canvas>
+		</div>
+		<script src="fc7eca939249dd8ec8722e87984f20fd"></script>
+	</body>
+</html>

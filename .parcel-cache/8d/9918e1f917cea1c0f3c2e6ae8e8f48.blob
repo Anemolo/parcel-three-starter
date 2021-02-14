@@ -1,0 +1,11 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="/offscreen-canvas-landing.a274f471.css">
+	</head>
+	<body>
+		<div id="app-wrapper">
+			<canvas id="app-canvas"></canvas>
+		</div>
+		<script src="/offscreen-canvas-landing.76082ea8.js"></script>
+	</body>
+</html>

@@ -1,0 +1,2 @@
+- [] How do I make sure build steps dopnt break with time.
+    - [] Saving completed builds? I don't think I would want that for every project
