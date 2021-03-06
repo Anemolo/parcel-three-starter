@@ -1,7 +1,5 @@
-/dist
+/dist/*.*
 /.parcel-cache
 /node_modules
 /.cache
-/static/**
-
-why wont you ignore my files
+/creation

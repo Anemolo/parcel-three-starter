@@ -1,3 +1,0 @@
-console.log("sdasdstart");
-let canvas = document.getElementById("app-canvas");
-let wrapper = document.getElementById("app-wrapper");

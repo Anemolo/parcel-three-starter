@@ -1,4 +1,0 @@
-This is a test.
-Your glbs and gltf models go here :)
-
-Images and other stuff that can be optimized by parcel goes on a different folder
