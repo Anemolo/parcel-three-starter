@@ -1,5 +1,12 @@
-- [] How do I make sure build steps dopnt break with time.
+YARN IS MANDATORY (for ~ alias to work)
 
+- [] How do I make sure build steps dopnt break with time.
+- [] Utils
+- [] Debug utilities
+- [] yarn reference to absolute path -> ~
+- [] Look into initVars and initPage
+
+  - [x] Texture
   - [] Saving completed builds? I don't think I would want that for every project
 
 - [PARCEL] Allow viewing in same network.

@@ -18,6 +18,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "~": "link:./src",
+    "@unseenco/e": "^1.8.1",
     "normalize.css": "^8.0.1",
     "three": "^0.125.2"
   },

@@ -1678,6 +1678,13 @@
   resolved "https://registry.yarnpkg.com/@types/q/-/q-1.5.4.tgz#15925414e0ad2cd765bfef58842f7e26a7accb24"
   integrity sha512-1HcDas8SEj4z1Wc696tH56G8OlRaH/sqZOynNNB+HF0WOeXPaxTtbYzJY2oEfiUxjSKjhCKr+MvR7dCHcEelug==
 
+"@unseenco/e@^1.8.1":
+  version "1.8.1"
+  resolved "https://registry.yarnpkg.com/@unseenco/e/-/e-1.8.1.tgz#818b7661fce0389bc95fe69e576d165e9ffb93c2"
+  integrity sha512-ct/KObzZOT+LhQD4bZvyj5pit77QOWFGI/wfpQDiSmAEwCUglPX3r+jAXFcIGTFEGOyzbbA3SMYzjvm9/Y5yJQ==
+  dependencies:
+    selector-set "^1.1.5"
+
 abab@^2.0.0:
   version "2.0.5"
   resolved "https://registry.yarnpkg.com/abab/-/abab-2.0.5.tgz#c0b678fb32d60fc1219c784d6a826fe385aeb79a"
@@ -5134,6 +5141,11 @@ saxes@^3.1.9:
   dependencies:
     xmlchars "^2.1.1"
 
+selector-set@^1.1.5:
+  version "1.1.5"
+  resolved "https://registry.yarnpkg.com/selector-set/-/selector-set-1.1.5.tgz#60c135aea482b6f46a2d95ad72058927690a8634"
+  integrity sha512-6SQw6yMew5iOZ8/cDHDEnJWRM4ot2mxP6szZyF5ptrBogw4AcS4EXRj/8BUfgAMwVfdL84qpModlBMOl2NVrsQ==
+
 semver@7.0.0:
   version "7.0.0"
   resolved "https://registry.yarnpkg.com/semver/-/semver-7.0.0.tgz#5f3ca35761e47e05b206c6daff2cf814f0316b8e"
@@ -5843,3 +5855,7 @@ xtend@^4.0.2:
   version "4.0.2"
   resolved "https://registry.yarnpkg.com/xtend/-/xtend-4.0.2.tgz#bb72779f5fa465186b1f438f674fa347fdb5db54"
   integrity sha512-LKYU1iAXJXUgAXn9URjiu+MWhyUXHsvfp7mcuYm9dSUKK0/CjtrUwFAxD82/mCWbtLsGjFIad0wIsod4zrTAEQ==
+
+"~@link:./src":
+  version "0.0.0"
+  uid ""
