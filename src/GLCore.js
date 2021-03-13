@@ -38,7 +38,7 @@ export class GLCore {
     this.init = this.init.bind(this);
     this.onResize = this.onResize.bind(this);
 
-    this.addEvents();
+    this.addEvents(); 
   }
   addEvents() {
     window.addEventListener("resize", this.onResize);
